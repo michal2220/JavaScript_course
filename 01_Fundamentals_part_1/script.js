@@ -51,3 +51,17 @@ const firstName = "Michal";
 const lastName = "Nazwisko";
 console.log(firstName + " " + lastName);
 
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+console.log(x);
+
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+
+console.log(now - 1996 > now - 1999);
