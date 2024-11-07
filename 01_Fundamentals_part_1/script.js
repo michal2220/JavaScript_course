@@ -40,28 +40,35 @@ console.log(typeof null);
 // var job = "programmer";
 // var job = "logger";
 
+// console.log(ageJonas, ageSarah);
+
+// console.log(ageJonas * 2, ageJonas / 2, "2 do 3=", 2 ** 3);
+
+// const firstName = "Michal";
+// const lastName = "Nazwisko";
+// console.log(firstName + " " + lastName);
+
+// let x = 10 + 5;
+// x += 10;
+// x *= 4;
+// x++;
+// x--;
+// console.log(x);
+
+// console.log(ageJonas > ageSarah);
+// console.log(ageSarah >= 18);
+
+// const isFullAge = ageSarah >= 18;
+// console.log(isFullAge);
+
 const now = 2037;
 const ageJonas = now - 1996;
-const ageSarah = now - 1999;
-console.log(ageJonas, ageSarah);
+const ageSarah = now - 2019;
 
-console.log(ageJonas * 2, ageJonas / 2, "2 do 3=", 2 ** 3);
+console.log(now - 1996 > now - 2019);
 
-const firstName = "Michal";
-const lastName = "Nazwisko";
-console.log(firstName + " " + lastName);
-
-let x = 10 + 5;
-x += 10;
-x *= 4;
-x++;
-x--;
-console.log(x);
-
-console.log(ageJonas > ageSarah);
-console.log(ageSarah >= 18);
-
-const isFullAge = ageSarah >= 18;
-console.log(isFullAge);
-
-console.log(now - 1996 > now - 1999);
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+const avarageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, avarageAge);
