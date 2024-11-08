@@ -149,6 +149,14 @@ console.log(favourite);
 
 if (favourite === 23) {
     console.log("cool, 23 is fun")
+} else if (favourite === 7) {
+    console.log("7 is also cool")
+} else if (favourite === 9) {
+    console.log("9 is also cool")
 } else {
     console.log("some other number")
+}
+
+if (favourite !== 23) {
+    console.log("Why not 23?")
 }
