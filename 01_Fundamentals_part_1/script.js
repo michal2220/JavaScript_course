@@ -108,3 +108,47 @@ console.log(typeof null);
 //     century = 21;
 // }
 // console.log(century);
+
+// const inputYear = "1991";
+// console.log(Number(inputYear) + 18);
+
+// //type coercion
+// console.log("I am " + 23 + " years old")
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Michal"));
+// console.log(Boolean({}));
+
+// const money = 1;
+
+// if (money) {
+//     console.log("I have some money");
+// } else {
+//     console.log("Don't have money");
+// }
+
+// let height = 190;
+// if (height) {
+//     console.log("YAY! height is defined");
+// } else {
+//     console.log(":( height is not defined");
+// }
+
+const age = "18";
+const favourite = Number(prompt("what is favourite number"));
+
+if (age === 18) console.log("Person is an adult");
+else console.log("Other age");
+
+if (age == 18) console.log("Person is an adult");
+else console.log("Other age");
+
+
+console.log(favourite);
+
+if (favourite === 23) {
+    console.log("cool, 23 is fun")
+} else {
+    console.log("some other number")
+}
