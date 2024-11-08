@@ -73,21 +73,38 @@ console.log(typeof null);
 // const avarageAge = (ageJonas + ageSarah) / 2;
 // console.log(ageJonas, ageSarah, avarageAge);
 
-const firstName = "Michal";
-const job = "teacher";
-const birthYear = 1996;
-const year = 2037;
+// const firstName = "Michal";
+// const job = "teacher";
+// const birthYear = 1996;
+// const year = 2037;
 
-const michal = "I'm " + firstName + ", I'm a " + job + " and I was born in " + birthYear + ". So I'm " + (year - birthYear) + " years old.";
+// const michal = "I'm " + firstName + ", I'm a " + job + " and I was born in " + birthYear + ". So I'm " + (year - birthYear) + " years old.";
 
-console.log(michal);
+// console.log(michal);
 
-const michalNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
-console.log(michalNew);
+// const michalNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+// console.log(michalNew);
 
-console.log(`String`);
+// console.log(`String`);
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
 
+// const age = 15;
+
+// if (age >= 18) {
+//     console.log("You can have drivers licence")
+// } else {
+//     const yearLeft = 18 - age;
+//     console.log(`Sarah is to young. Wait another ${yearLeft} years.`)
+// }
+
+// const birthYear = 2012;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
