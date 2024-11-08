@@ -184,27 +184,45 @@ console.log(typeof null);
 // }
 
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-    case "monday":
-        console.log("Plan course structure");
-        console.log("Go to coding meetup");
-        break;
-    case "tuesday":
-        console.log("Prepare videos");
-        break;
-    case "wednesday":
-    case "thursday":
-        console.log("Wirte examples");
-        break;
-    case "friday":
-        console.log("record videos");
-        break;
-    case "saturday":
-    case "sunday":
-        console.log("weekdend");
-        break
-    default:
-        console.log("Not a day");
-}
+// switch (day) {
+//     case "monday":
+//         console.log("Plan course structure");
+//         console.log("Go to coding meetup");
+//         break;
+//     case "tuesday":
+//         console.log("Prepare videos");
+//         break;
+//     case "wednesday":
+//     case "thursday":
+//         console.log("Wirte examples");
+//         break;
+//     case "friday":
+//         console.log("record videos");
+//         break;
+//     case "saturday":
+//     case "sunday":
+//         console.log("weekdend");
+//         break
+//     default:
+//         console.log("Not a day");
+// }
+
+// const age = 23;
+// age >= 18 ? console.log("You can drink") : console.log("Not of age");
+
+// const drink = age >= 18 ? "wine" : "water";
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//     drink2 = "wine";
+// } else {
+//     drink2 = "water";
+// }
+
+// console.log(drink2);
+
+// console.log(`You can drink ${age >= 18 ? "wine" : "water"}`);
+
