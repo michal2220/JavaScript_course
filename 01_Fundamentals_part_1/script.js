@@ -83,4 +83,11 @@ const michal = "I'm " + firstName + ", I'm a " + job + " and I was born in " + b
 console.log(michal);
 
 const michalNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
-console.log(michalNew)
+console.log(michalNew);
+
+console.log(`String`);
+
+console.log(`String
+multiple
+lines`);
+
