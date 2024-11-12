@@ -149,3 +149,55 @@
 // }
 
 
+// const jonas = {
+//     firstName: "Jonas",
+//     lastName: "Shmedtmann",
+//     age: 2037 - 1996,
+//     job: "teacher",
+//     firends: ["Michael", "Peter", "Steven"]
+// };
+
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// console.log(jonas["lastName"]);
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]);
+// console.log(jonas["last" + nameKey]);
+
+// const intrestedIn = prompt("What do You want to know about Jonas? Choose beteen: firstName, lastName, age, job, friends");
+
+// if (jonas[intrestedIn]) {
+//     console.log(jonas[intrestedIn]);
+// } else {
+//     console.log(`Wrong request! No ${intrestedIn}! Choose beteen: firstName, lastName, age, job, friends`)
+// }
+
+// jonas.location = "Portugal";
+// jonas["twitter"] = "@jonasshmedtman";
+// console.log(jonas);
+
+// console.log(`${jonas.firstName} has ${jonas.firends.length} friends and his best friend is ${jonas.firends[0]}.`)
+
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Shmedtmann",
+    birthYear: 1991,
+    job: "teacher",
+    firends: ["Michael", "Peter", "Steven"],
+    hasDriversLicense: true,
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`
+    }
+};
+
+console.log(jonas.calcAge());
+console.log(jonas.age);
+console.log(jonas.getSummary())
