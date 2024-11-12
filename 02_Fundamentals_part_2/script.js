@@ -180,24 +180,76 @@
 
 // console.log(`${jonas.firstName} has ${jonas.firends.length} friends and his best friend is ${jonas.firends[0]}.`)
 
-const jonas = {
-    firstName: "Jonas",
-    lastName: "Shmedtmann",
-    birthYear: 1991,
-    job: "teacher",
-    firends: ["Michael", "Peter", "Steven"],
-    hasDriversLicense: true,
+// const jonas = {
+//     firstName: "Jonas",
+//     lastName: "Shmedtmann",
+//     birthYear: 1991,
+//     job: "teacher",
+//     firends: ["Michael", "Peter", "Steven"],
+//     hasDriversLicense: true,
 
-    calcAge: function () {
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
+//     calcAge: function () {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
 
-    getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`
-    }
-};
+//     getSummary: function () {
+//         return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`
+//     }
+// };
 
-console.log(jonas.calcAge());
-console.log(jonas.age);
-console.log(jonas.getSummary())
+// console.log(jonas.calcAge());
+// console.log(jonas.age);
+// console.log(jonas.getSummary())
+
+
+
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}.`);
+
+// }
+
+const jonas = [
+    "Jonas",
+    "Shmedtmann",
+    1991,
+    "teacher",
+    ["Michael", "Peter", "Steven"],
+    true,
+]
+
+const types = [];
+
+for (let i = 0; i < jonas.length; i++) {
+    console.log(jonas[i], typeof (jonas[i]));
+    // types[i] = typeof (jonas[i]);
+    types.push(typeof (jonas[i]));
+}
+console.log(types);
+
+
+
+const year = [1991, 2007, 1969, 2020];
+const age = [];
+
+for (let i = 0; i < year.length; i++) {
+    age.push(2037 - year[i]);
+}
+
+console.log(age);
+
+
+console.log("--- ONLY STRINGS ---");
+
+for (let i = 0; i < jonas.length; i++) {
+    if (typeof (jonas[i]) !== "string") continue;
+    console.log(jonas[i], typeof (jonas[i]));
+}
+
+console.log("--- ONLY FIRST NUMBER ---");
+
+
+for (let i = 0; i < jonas.length; i++) {
+    console.log(jonas[i], typeof (jonas[i]));
+    if (typeof (jonas[i]) === "number") break;
+}
