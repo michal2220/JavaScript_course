@@ -209,47 +209,90 @@
 
 // }
 
-const jonas = [
-    "Jonas",
-    "Shmedtmann",
-    1991,
-    "teacher",
-    ["Michael", "Peter", "Steven"],
-    true,
-]
+// const jonas = [
+//     "Jonas",
+//     "Shmedtmann",
+//     1991,
+//     "teacher",
+//     ["Michael", "Peter", "Steven"],
+//     true,
+// ]
 
-const types = [];
+// const types = [];
 
-for (let i = 0; i < jonas.length; i++) {
-    console.log(jonas[i], typeof (jonas[i]));
-    // types[i] = typeof (jonas[i]);
-    types.push(typeof (jonas[i]));
-}
-console.log(types);
-
-
-
-const year = [1991, 2007, 1969, 2020];
-const age = [];
-
-for (let i = 0; i < year.length; i++) {
-    age.push(2037 - year[i]);
-}
-
-console.log(age);
+// for (let i = 0; i < jonas.length; i++) {
+//     console.log(jonas[i], typeof (jonas[i]));
+//     // types[i] = typeof (jonas[i]);
+//     types.push(typeof (jonas[i]));
+// }
+// console.log(types);
 
 
-console.log("--- ONLY STRINGS ---");
 
-for (let i = 0; i < jonas.length; i++) {
-    if (typeof (jonas[i]) !== "string") continue;
-    console.log(jonas[i], typeof (jonas[i]));
-}
+// const year = [1991, 2007, 1969, 2020];
+// const age = [];
 
-console.log("--- ONLY FIRST NUMBER ---");
+// for (let i = 0; i < year.length; i++) {
+//     age.push(2037 - year[i]);
+// }
+
+// console.log(age);
 
 
-for (let i = 0; i < jonas.length; i++) {
-    console.log(jonas[i], typeof (jonas[i]));
-    if (typeof (jonas[i]) === "number") break;
-}
+// console.log("--- ONLY STRINGS ---");
+
+// for (let i = 0; i < jonas.length; i++) {
+//     if (typeof (jonas[i]) !== "string") continue;
+//     console.log(jonas[i], typeof (jonas[i]));
+// }
+
+// console.log("--- ONLY FIRST NUMBER ---");
+
+
+// for (let i = 0; i < jonas.length; i++) {
+//     console.log(jonas[i], typeof (jonas[i]));
+//     if (typeof (jonas[i]) === "number") break;
+// }
+
+
+// const jonas = [
+//     "Jonas",
+//     "Shmedtmann",
+//     1991,
+//     "teacher",
+//     ["Michael", "Peter", "Steven"],
+// ]
+
+// for (let i = jonas.length - 1; i >= 0; i--) {
+//     console.log(jonas[i]);
+// }
+
+// for (let i = 0; i <= 3; i++) {
+//     console.log(`------ Excersise ${i}`);
+
+//     for (let n = 0; n <= 5; n++) {
+//         console.log(`Repetition ${n}`);
+//     }
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`Excersise ${i}`);
+// }
+
+// let rep = 1;
+// while (rep <= 10) {
+//     console.log(`Excersise ${rep}`);
+//     rep++;
+// }
+
+
+// let roll = Math.trunc(Math.random() * 6) + 1;
+
+// while (roll !== 6) {
+//     console.log(roll);
+//     roll = Math.trunc(Math.random() * 6) + 1;
+//     if (roll === 6) {
+//         console.log("Loop is about to end...")
+//     }
+// }
